@@ -1,0 +1,1 @@
+// Iconos con productos, si hay tiempo serán filtros
