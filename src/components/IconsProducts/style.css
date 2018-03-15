@@ -1,0 +1,17 @@
+.icon {
+    font-size: 4em;
+    color: lightseagreen;
+    cursor: pointer;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.icon:hover{
+    color: rgb(245, 245, 19);
+}
+
+h2{
+    padding-top: 1em;
+    text-align: left;
+}
+

@@ -4,6 +4,7 @@ import Carousel from './components/Carrousel/';
 import Footer from './components/Footer';
 import CartShop from './components/NavBar/CartShop';
 import ProductList from './components/ProductList';
+import IconsProducts from './components/IconsProducts';
 import './App.css';
 
 
@@ -15,6 +16,7 @@ class App extends Component {
         <CartShop/>
         <ProductList/>
         <Carousel/>
+        <IconsProducts/>
         <Footer/>
       </div>
     );
