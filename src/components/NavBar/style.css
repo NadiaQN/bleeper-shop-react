@@ -1,7 +1,11 @@
 .nav-bar{
     background-color: #012B5D;
-    height: 6em;
+    margin-bottom: 0;
 }
 .form-search{
-    margin-top: 2.5%;
+    margin-top: 1%;
 }
+.logo{
+    padding: 0;
+}
+

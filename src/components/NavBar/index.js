@@ -6,24 +6,25 @@ import './style.css';
 
 
 const navbar = ({}) => {
-  return (
-    <Navbar className='nav-bar'>
-      <Navbar.Header>
-        <Navbar.Brand className='logo'>
-          <a href="index.html"><img height={50} src={logo} alt={''}/></a>
-        </Navbar.Brand>
-        <Navbar.Toggle />
-      </Navbar.Header>
-    <Navbar.Collapse className='container-form'>
-      <Navbar.Form className='form-search'>
-        <FormGroup>
-          <FormControl type="text" placeholder="Ropa, Autos, etc..." />
-        </FormGroup>{' '}
-        <Button type="submit" bsStyle='success'>Buscar</Button>
-      </Navbar.Form>
-    </Navbar.Collapse>
-    </Navbar>
-  )
+    return (
+                    <Navbar className='nav-bar'>
+                        <Navbar.Header>
+                            <Navbar.Brand className='logo'>
+                                <a href="index.html"><img height={50} src={logo} alt={''}/></a>
+                            </Navbar.Brand>
+                            <Navbar.Toggle />
+                        </Navbar.Header>
+                    <Navbar.Collapse className='container-form'>
+                        <Navbar.Form className='form-search'>
+                            <FormGroup>
+                                <FormControl type="text" placeholder="Ropa, Autos, etc..." />
+                            </FormGroup>{' '}
+                            <Button type="submit" bsStyle='success'>Buscar</Button>
+                        </Navbar.Form>
+                    </Navbar.Collapse>
+                    </Navbar>
+    )
+
 }
 
 export default navbar;
