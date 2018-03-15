@@ -13,8 +13,7 @@ class CartShop extends Component {
 
     render() {
         return (
-            <Row className="show-grid">
-                <Col xs={12} md={3} mdOffset={8}>
+            <div className="item-table">
                     <Table>
                         <thead>
                             <tr>
@@ -33,8 +32,7 @@ class CartShop extends Component {
                             </tr>
                         </tbody>
                     </Table>
-                </Col>
-            </Row>
+            </div>
         )
     }
 }
