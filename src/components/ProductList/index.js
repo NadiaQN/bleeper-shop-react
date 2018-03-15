@@ -13,7 +13,6 @@ class ProductList extends Component {
         }
     }
 
-
     render() {
         return (
             <Grid>

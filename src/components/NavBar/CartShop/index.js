@@ -15,7 +15,7 @@ class CartShop extends Component {
         return (
             <Row className="show-grid">
                 <Col xs={12} md={3} mdOffset={8}>
-                    <Table responsive>
+                    <Table>
                         <thead>
                             <tr>
                                 <th>id</th>
