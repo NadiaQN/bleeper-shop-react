@@ -1,13 +1,13 @@
 // Carrusel de imagenes que irá en la pagina principal
 import React from 'react';
-import { Carousel, Row, Col } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import HappyEaster from './../../img/happy_easter.jpg';
 import School from './../../img/school.jpg';
 import Lollapalooza from './../../img/lola.jpg';
 import './style.css';
 
 
-const carousel = ({}) => {
+const carousel = () => {
     return (
         <Carousel bsClass='carousel'>
             <Carousel.Item>
