@@ -22,6 +22,12 @@ class navbar extends Component {
     handleSubmit(event) {
         console.log(`value ${this.state.value}`);
         event.preventDefault();
+        const { value } = this.state
+    fetch(`https://api.mercadolibre.com/sites/MLC/search?q=${value}`)
+      .then(res => res.json())
+      .then(results => {
+        console.log(results)
+      })
     }
 
     render() {
