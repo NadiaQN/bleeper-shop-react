@@ -4,26 +4,33 @@ import { Navbar, Form, FormControl, Button} from 'react-bootstrap';
 import logo from './../../img/Blue_Bag_ Shopping_Logo.jpg';
 import './style.css';
 
-
+// Inicio el componente de clase
 class navbar extends Component {
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
+        // Declaro un estado vacio inicial en el formControl
         this.state = {
             value: ''
         }
+        // Llamo a mis funciones declaradas más abajo .bind les pide que estas funciones
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
+
+    // Funcion que detecta el cambio de estado en el formControl
     handleChange(event) {
         this.setState({
             value: event.target.value
         });
     }
+
+    // Funcion que toma el valor y poder usarlo
     handleSubmit(event) {
         console.log(`value ${this.state.value}`);
         event.preventDefault();
     }
 
+    // Aquí se renderiza el navbar
     render() {
         return (
             <Navbar className='nav-bar'>
