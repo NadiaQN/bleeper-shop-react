@@ -7,27 +7,16 @@ import './style.css';
 const IconsProducts = ({ }) => {
     return (
 
-        <Grid>
-            <Row className="show-grid">
-
-                <h2>Productos destacados</h2>
-                <Col xs={3} md={3}>
-                    <Glyphicon className="icon"  glyph="phone"/>
-                </Col>
-                <Col xs={3} md={3}>
-                    <Glyphicon className="icon" glyph="camera" />
-                </Col>
-                <Col xs={3} md={3}>
-                    <Glyphicon className="icon" glyph="book" />
-                </Col>
-                <Col xs={3} md={3}>
-                    <Glyphicon className="icon" className="icon"glyph="cutlery" />
-                </Col>
-            </Row>
-        </Grid>
-
-    )
-
+           <div className= "item-icons">
+             <h2>Productos destacados</h2>
+               <ul>
+                 <li><Glyphicon className="icon" glyph="phone"/></li>
+                 <li><Glyphicon className="icon" glyph="camera"/></li>
+                 <li><Glyphicon className="icon" glyph="book"/></li>
+                 <li> <Glyphicon className="icon" className="icon" glyph="cutlery"/></li>
+               </ul>
+           </div>
+        )
 }
 
 

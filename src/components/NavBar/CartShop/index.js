@@ -18,8 +18,7 @@ class CartShop extends Component {
 
         return (
 
-            <Row className="show-grid">
-                <Col xs={12} md={3} mdOffset={8}>
+            <div className="item-table">
                     <Table responsive>
                         <thead>
                             <tr>
@@ -38,8 +37,7 @@ class CartShop extends Component {
                             </tr>
                         </tbody>
                     </Table>
-                </Col>
-            </Row>
+            </div>
 
         )
 
