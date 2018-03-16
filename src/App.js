@@ -6,8 +6,8 @@ import CartShop from './components/NavBar/CartShop';
 import ProductList from './components/ProductList';
 import IconsProducts from './components/IconsProducts';
 import CenterItem from './components/CenterItem';
-import './App.css';
 import { Thumbnail } from 'react-bootstrap';
+import './App.css';
 
 
 
@@ -36,7 +36,8 @@ class App extends Component {
       )
     })
   }
-  
+
+
   render() {
     return (
       <div className="App">
@@ -48,7 +49,6 @@ class App extends Component {
         <IconsProducts/>
         <Footer/>
       </div>
-      
     );
   }
 }

@@ -40,10 +40,7 @@ class navbar extends Component {
         this.setState({value: ''})
       })
     }
-
-    // Limpiar input 
-
-
+    
     // Aquí se renderiza el navbar
     render() {
         return (

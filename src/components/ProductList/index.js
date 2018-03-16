@@ -5,6 +5,7 @@ import "./style.css"
 
 
 class ProductList extends Component {
+
   render() {
     const {title, price, condition, available, sold, thumbnail } = this.props
   

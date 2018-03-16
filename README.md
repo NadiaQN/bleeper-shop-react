@@ -10,7 +10,7 @@ Aplicación de *e-commerce* que utiliza la API de mercado libre para realizar b�
 
 ## Uso de la aplicación
 
- Puedes usarla directamente desde nuestro demo en [Github Pages](https://nadiaqn.github.io/bleeper-shop-react).
+ Puedes usarla directamente desde nuestro demo en [Github Pages](https://nadiaqn.github.io/bleeper-shop-react/).
 
 También puedes descargarla y usarla desde un local Host, para ello usa estos comando en tu terminal:
 
