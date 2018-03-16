@@ -1,6 +1,6 @@
 // Carro de compras
 import React, { Component } from 'react';
-import { Table, Row, Col } from 'react-bootstrap';
+import { Table, Col } from 'react-bootstrap';
 import './style.css'
 
 class CartShop extends Component {
@@ -13,6 +13,7 @@ class CartShop extends Component {
 
     render() {
         return (
+        <Col md={12}>
             <div className="item-table">
                     <Table>
                         <thead>
@@ -33,6 +34,7 @@ class CartShop extends Component {
                         </tbody>
                     </Table>
             </div>
+        </Col>
         )
     }
 }

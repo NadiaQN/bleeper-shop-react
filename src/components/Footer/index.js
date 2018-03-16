@@ -1,6 +1,5 @@
 // Pie de pagina
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
 import imgPaypal from '../../img/paypal.png';
 import './style.css'
 

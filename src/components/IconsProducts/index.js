@@ -1,10 +1,10 @@
 // Iconos con productos, si hay tiempo serán filtros
 import React from "react";
-import { Grid, Row, Col, Glyphicon} from 'react-bootstrap';
+import { Glyphicon } from 'react-bootstrap';
 import './style.css';
 
 
-const IconsProducts = ({ }) => {
+const IconsProducts = () => {
     return (
 
            <div className= "item-icons">

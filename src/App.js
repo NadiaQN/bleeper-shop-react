@@ -42,14 +42,12 @@ class App extends Component {
       <div className="App">
         <Navbar onResults={this._handleResults} />
         <CartShop/>
-        <ProductList/>
-        <Carousel/>
+        {this.state.data.length === 0
+          ? <Carousel />
+          : this._renderResults()}
         <CenterItem/>
         <IconsProducts/>
         <Footer/>
-        {this.state.data.length === 0
-      ? <p>Sin resultados</p>
-      : this._renderResults()}
       </div>
       
     );
