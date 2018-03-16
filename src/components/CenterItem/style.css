@@ -1,0 +1,37 @@
+.item-center {
+    width: 100%;
+    background-color: rgb(234, 245, 247);
+    padding-bottom: 6em;
+    padding-top: 4em;
+    overflow: hidden;
+   
+}
+
+.item-center img {
+    width:250px;
+    height:250px;
+
+}
+   
+ .img:hover{
+     transform:scale(1.2);
+ }
+
+
+.img {
+    display:inline-block;
+    margin-left: 3em;
+    margin-right: 3em;
+    cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 641px) {
+
+.img{
+
+    
+    margin-bottom: 5em;
+
+}
+
+}
