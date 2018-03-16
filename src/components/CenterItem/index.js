@@ -13,15 +13,15 @@ const CenterItem = () => {
             <div className="item-center">
               <div className="img1 img">
                 <h3>Ofertas</h3>
-                <img  alt={"muebles"}  src={image1}/>
+                <img  alt={"muebles"}  src={image1} responsive/>
               </div>
               <div className="img2 img">
                 <h3>Ofertas</h3>
-                <img  alt={"muebles"}  src={image2}/>    
+                <img  alt={"muebles"}  src={image2} responsive/>    
               </div>
               <div className="img3 img">
                 <h3>Ofertas</h3>
-                <img  alt={"muebles"}  src={image3}/>
+                <img  alt={"muebles"}  src={image3} responsive/>
               </div>
             </div>
 
