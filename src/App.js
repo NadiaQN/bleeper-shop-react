@@ -41,7 +41,6 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar onResults={this._handleResults} />
-        <CartShop/>
         {this.state.data.length === 0
           ? <Carousel />
           : this._renderResults()}
