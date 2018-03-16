@@ -6,19 +6,11 @@ import "./style.css"
 
 
 class ProductList extends Component {
-  constructor() {
-    super();
-
-    this.state = {
-      data: []
-    }
-  }
-
-  // _handleResults = (data) => {
-  //   this.setState({ data })
-  // }
-
+ 
+ 
   render() {
+    const {title, price, condition, available_quantity, sold_quantity } = this.props
+    
     return (
       <Grid>
         <Row>
@@ -42,5 +34,6 @@ class ProductList extends Component {
   }
 
 }
+
 
 export default ProductList;

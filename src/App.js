@@ -7,16 +7,34 @@ import ProductList from './components/ProductList';
 import './App.css';
 
 
+
 class App extends Component {
+  state = { data: [] }
+
+  _handleResults = (data) => {
+    this.setState({ data })
+  }
+
+  _renderResults () {
+    const { data } = this.state
+    return data.map(product => {
+      return <p key={product.id}>{product.title}</p>
+    })
+  }
+  
   render() {
     return (
       <div className="App">
-        <Navbar onResults={this._handleResults}/>
+        <Navbar onResults={this._handleResults} />
         <CartShop/>
         <ProductList/>
         <Carousel/>
         <Footer/>
+        {this.state.data.length === 0
+      ? <p>Sin resultados</p>
+      : this._renderResults()}
       </div>
+      
     );
   }
 }

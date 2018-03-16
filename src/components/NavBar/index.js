@@ -29,7 +29,7 @@ class navbar extends Component {
         console.log(data)
         const { results } = data;
         console.log({results})
-        // this.props.onResults(results)
+        this.props.onResults(results)
       })
     }
 
