@@ -37,8 +37,12 @@ class navbar extends Component {
         const { results } = data;
         console.log({results})
         this.props.onResults(results)
+        this.setState({value: ''})
       })
     }
+
+    // Limpiar input 
+
 
     // Aquí se renderiza el navbar
     render() {
