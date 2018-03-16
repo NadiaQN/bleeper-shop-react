@@ -33,7 +33,7 @@ class navbar extends Component {
     fetch(`https://api.mercadolibre.com/sites/MLC/search?q=${value}`)
       .then(res => res.json())
       .then(results => {
-        console.log(results)
+        console.log(results);
       })
     }
 
