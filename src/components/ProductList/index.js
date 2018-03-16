@@ -9,20 +9,22 @@ class ProductList extends Component {
  
  
   render() {
-    const {title, price, condition, available_quantity, sold_quantity } = this.props
-    
+    const {title, price, condition, available, sold, state, city, thumbnail } = this.props
+  
     return (
       <Grid>
         <Row>
           <Col xs={6} md={4}>
-            <Thumbnail src="/thumbnaildiv.png" alt="242x200">
-              <h3>Nombre: </h3>
-              <p>Precio: </p>
-              <p>Condicion: </p>
-              <p>Disponibles: </p>
-              <p>Vendidos: </p>
-              <p>Ciudad: </p>
-              <p>Comuna: </p>
+            <Thumbnail 
+              src={thumbnail} 
+              alt={title}>
+              <h3>Nombre: {title}</h3>
+              <p>Precio: {price}</p>
+              <p>Condicion: {condition}</p>
+              <p>Disponibles: {available}</p>
+              <p>Vendidos: {sold}</p>
+              {/* <p>Ciudad: {state}</p>
+              <p>Comuna: {city}</p> */}
               <p>
                 <Button bsStyle="default">Agregar</Button>
               </p>

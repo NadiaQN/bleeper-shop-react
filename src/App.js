@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import CartShop from './components/NavBar/CartShop';
 import ProductList from './components/ProductList';
 import './App.css';
+import { Thumbnail } from 'react-bootstrap';
 
 
 
@@ -19,7 +20,17 @@ class App extends Component {
     const { data } = this.state
     return data.map(product => {
       return (
-        <ProductList key={product.id}>{product.title}</ProductList>
+        <ProductList 
+          key={product.id}
+          thumbnail={product.thumbnail}
+          title={product.title} 
+          price={product.price}
+          condition={product.condition}
+          available={product.available_quantity}
+          sold={product.sold_quantity}
+          // city={product.adress.state_name}
+          // state={product.adress.city_name}
+        />
       )
     })
   }
