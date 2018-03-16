@@ -18,7 +18,9 @@ class App extends Component {
   _renderResults () {
     const { data } = this.state
     return data.map(product => {
-      return <p key={product.id}>{product.title}</p>
+      return (
+        <ProductList key={product.id}>{product.title}</ProductList>
+      )
     })
   }
   
