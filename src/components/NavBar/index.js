@@ -30,10 +30,13 @@ class navbar extends Component {
         console.log(`value ${this.state.value}`);
         event.preventDefault();
         const { value } = this.state
-    fetch(`https://api.mercadolibre.com/sites/MLC/search?q=${value}`)
+    fetch(`https://api.mercadolibre.com/sites/MLC/search?q=${value}&limit=20`)
       .then(res => res.json())
-      .then(results => {
-        console.log(results)
+      .then(data => {
+        console.log(data)
+        const { results } = data;
+        console.log({results})
+        this.props.onResults(results)
       })
     }
 
