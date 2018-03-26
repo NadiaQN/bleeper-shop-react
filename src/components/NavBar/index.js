@@ -13,7 +13,7 @@ class navbar extends Component {
         this.state = {
             value: ''
         }
-        // Llamo a mis funciones declaradas más abajo .bind les pide que estas funciones
+        // Llamo a mis funciones declaradas más abajo .bind les pide que estás funcionen
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
