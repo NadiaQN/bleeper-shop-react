@@ -2,7 +2,7 @@
 
 Aplicación de *e-commerce* que utiliza la API de mercado libre para realizar búsquedas de productos existentes en la base de datos.
 
-![](https://user-images.githubusercontent.com/32299783/37910581-43ff5748-30e4-11e8-86cd-8ccadc982666.jpg)
+![bleeper-shop-preview](https://user-images.githubusercontent.com/32299783/37910581-43ff5748-30e4-11e8-86cd-8ccadc982666.jpg)
 
 ## Desarrollado para 
 
